@@ -36,7 +36,7 @@ export function DigitStatsBar({
                 variant={isSelected ? 'default' : 'outline'}
                 onClick={() => onDigitSelect(digit)}
                 className={cn(
-                  'w-11 h-11 sm:w-14 sm:h-14 text-base sm:text-xl font-semibold rounded-lg p-0',
+                  'w-11 h-11 sm:w-14 sm:h-14 text-base sm:text-xl font-semibold rounded-full p-0',
                   !isSelected && 'bg-muted/50 border-muted-foreground/20'
                 )}
               >
